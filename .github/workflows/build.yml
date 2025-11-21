@@ -33,7 +33,7 @@ jobs:
         # Add UA3F
         git clone https://github.com/SunBK201/UA3F.git package/UA3F
         
-        # Configure for x86_64 - 使用正确的缩进
+        # Configure for x86_64 - 使用正确的缩进ai
         cat > .config << 'EOF'
         CONFIG_TARGET_x86=y
         CONFIG_TARGET_x86_64=y
